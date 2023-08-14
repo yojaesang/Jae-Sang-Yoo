@@ -10,58 +10,96 @@ function App() {
         <div className='my-8'></div>
 
         <h1 className='font-serif'>Jae Sang Yoo</h1>
-      
-        {/* 대학교 이력 */}
-        <div className='text-xl my-4 font-bold'>Education</div>
-        <div className='text-base'>Feb 2012 - Feb 2019</div>
-        <div className='text-base'>Yonsei University</div>
-        <div className='text-base'>Bachelor of Science - BS <br></br> Information & Interaction Design</div>
-        <div className='text-base'>Bachelor of Arts - BA <br></br> Media and Communication</div>
 
         {/* 간격 */}
         <div className='my-8'></div>
 
         {/* 직무 이력 */}
-        <div className='text-xl my-4 font-black'>Experience</div>
+        <div className='text-xl my-4 font-bold'>Experience</div>
         
-        <div className='text-base'>Sep 2023 - Present</div>
-        <div className='text-base'>Alterengo / Cofounder • Full time</div>
+        <div className='text-xl'>Sep 2023 - Present</div>
+        <div className='text-xl'>Alterengo / Cofounder • Full time</div>
 
         {/* 간격 */}
-        <div className='my-4'></div>
+        <div className='my-8'></div>
 
-        <div className='text-base'>Jan 2019 - Sep 2023</div>
-        <div className='text-base'>SK broadband / UIUX Designer • Full time</div>
+        <div className='text-xl'>Jan 2019 - Sep 2023</div>
+        <div className='text-xl'>SK broadband / UIUX Designer • Full time</div>
 
         {/* 간격 */}
         <div className='my-2'></div>
 
 
         <div className='ml-8'>
-          <div className='text-base italic'>Jan - Sep 2023</div>
-          <div className='text-base'>Product Component Technology Squad</div>
-          <ul className='text-base'>
-            <li>B tv App for Apple tv UX Design</li>
-            <li>•  B tv App for Apple tv User Research</li>
+          <div className='text-xl italic'>Jan - Sep 2023 / Product Component Technology Squad</div>
+          <ul className='text-sm text-slate-400'>
+            <li className='my-2'>B tv App for Apple tv UIUX</li>
+            <li>•  Field User Research</li>
+            <li>•  UX Redesign for Live tv</li>
+            <li>•  Persionalized Contents Recommnedation UI</li>
 
-            <li>UX Design for Device</li>
-            <li>•  B tv Settings UX for Set-top Boxs & Remote Control</li>
+            <li className='my-2'>B tv UX for Device</li>
+            <li>•  Device Screen Setting UI for Set-top Boxs & Remote Control</li>
             <li>•  Remote Pairing UX Enhancement for CUG&#40;Closed User Group&#41;</li>
+
+            <li className='my-2'>UX Design System</li>
+            <li>•  B tv UX Principle</li>
           </ul>
 
-        {/* 간격 */}
-        <div className='my-4'></div>
+          {/* 간격 */}
+          <div className='my-8'></div>
 
-          <div className='text-base italic'>Jan 2019 - Dec 2022</div>
-          <div className='text-base'>Device Development Squad</div>
-          <ul className='text-base'>
-            <li>B tv App for Apple tv UX Design</li>
-            <li>•  B tv App for Apple tv User Research</li>
+          <div className='text-xl italic'>Jan - Dec 2022 / Device Development Squad</div>
+            <ul className='text-sm text-slate-400'>
 
-            <li>UX Design for Device</li>
-            <li>•  B tv Settings UX for Set-top Boxs & Remote Control</li>
-            <li>•  Remote Pairing UX Enhancement for CUG&#40;Closed User Group&#41;</li>
-          </ul>
+              <li className='my-2'>B tv App for Apple tv UIUX</li>
+              <li>•  B tv App for Apple tv UI Redesign Project</li>
+
+              <li className='my-2'>B tv Air&#40;Tablet&#41; UIUX</li>
+              <li>•  B tv App for Apple tv UI Redesign Project</li>
+
+
+              <li className='my-2'>UX Design for Device</li>
+              <li>•  B tv Settings UX for Set-top Boxs & Remote Control</li>
+              <li>•  Remote Pairing UX Enhancement for CUG&#40;Closed User Group&#41;</li>
+            </ul>
+
+          {/* 간격 */}
+          <div className='my-8'></div>
+
+          <div className='text-xl italic'>Jan - Dec 2021 / Device Development Squad</div>
+            <ul className='text-sm text-slate-400'>
+
+              <li className='my-2'>B tv App for Apple tv UIUX</li>
+              <li>•  B tv App for Apple tv UI Redesign Project</li>
+
+              <li className='my-2'>B tv Air&#40;Tablet&#41; UIUX</li>
+              <li>•  B tv App for Apple tv UI Redesign Project</li>
+
+
+              <li className='my-2'>UX Design for Device</li>
+              <li>•  B tv Settings UX for Set-top Boxs & Remote Control</li>
+              <li>•  Remote Pairing UX Enhancement for CUG&#40;Closed User Group&#41;</li>
+            </ul>
+
+            {/* 간격 */}
+            <div className='my-8'></div>
+
+            <div className='text-xl italic'>Jan 2019 - Dec 2020 / Device Development Squad</div>
+              <ul className='text-sm text-slate-400'>
+
+                <li className='my-2'>B tv App for Apple tv UIUX</li>
+                <li>•  B tv App for Apple tv UI Redesign Project</li>
+
+                <li className='my-2'>B tv Air&#40;Tablet&#41; UIUX</li>
+                <li>•  B tv App for Apple tv UI Redesign Project</li>
+
+
+                <li className='my-2'>UX Design for Device</li>
+                <li>•  B tv Settings UX for Set-top Boxs & Remote Control</li>
+                <li>•  Remote Pairing UX Enhancement for CUG&#40;Closed User Group&#41;</li>
+              </ul>
+
         </div>
 
 
@@ -70,43 +108,52 @@ function App() {
         {/* 간격 */}
         <div className='my-8'></div>
 
-        <div className='text-base'>Nov 2017 - Jul 2018</div>
-        <div className='text-base'>Naver Design Camp 2018, Paris, France / UI Dseigner• Intern</div>
+        <div className='text-xl'>Nov 2017 - Jul 2018</div>
+        <div className='text-xl'>Naver Design Camp 2018, Paris, France / UI Dseigner• Intern</div>
 
+        {/* 간격 */}
+        <div className='my-8'></div>
+
+        {/* 대학교 이력 */}
+        <div className='text-xl my-4 font-bold'>Education</div>
+        <div className='text-xl'>Feb 2012 - Feb 2019</div>
+        <div className='text-xl'>Yonsei University</div>
+        <div className='text-sm'>Bachelor of Science - BS / Information & Interaction Design</div>
+        <div className='text-sm'>Bachelor of Arts - BA / Media and Communication</div>
 
         {/* 간격 */}
         <div className='my-8'></div>
 
         {/* 수상 이력 */}
-        <div className='text-xl my-4 font-black'>Patents</div>
+        <div className='text-xl my-4 font-bold'>Patents</div>
 
-        <div className='text-base'>Nov 2017 - Jul 2018</div>
-        <div className='text-base'>Naver Design Camp 2018, Paris, France</div>
-        <div className='text-base'>Internship</div>
+        <div className='text-xl'>Nov 2017 - Jul 2018</div>
+        <div className='text-xl'>Naver Design Camp 2018, Paris, France</div>
+        <div className='text-xl'>Internship</div>
 
         {/* 간격 */}
         <div className='my-8'></div>
 
-        <div className='text-base'>Jan 2019 - Sep 2023</div>
-        <div className='text-base'>Naver Design Camp 2018, Paris, France</div>
-        <div className='text-base'>Full time</div>
+        <div className='text-xl'>Jan 2019 - Sep 2023</div>
+        <div className='text-xl'>Naver Design Camp 2018, Paris, France</div>
+        <div className='text-xl'>Full time</div>
 
         {/* 간격 */}
         <div className='my-8'></div>
 
         {/* 특허 이력 */}
-        <div className='text-xl my-4 font-black'>Honors & awards</div>
+        <div className='text-xl my-4 font-bold'>Honors & awards</div>
 
-        <div className='text-base'>Nov 2017 - Jul 2018</div>
-        <div className='text-base'>Naver Design Camp 2018, Paris, France</div>
-        <div className='text-base'>Internship</div>
+        <div className='text-xl'>Nov 2017 - Jul 2018</div>
+        <div className='text-xl'>Naver Design Camp 2018, Paris, France</div>
+        <div className='text-xl'>Internship</div>
 
         {/* 간격 */}
         <div className='my-8'></div>
 
-        <div className='text-base'>Jan 2019 - Sep 2023</div>
-        <div className='text-base'>Naver Design Camp 2018, Paris, France</div>
-        <div className='text-base'>Full time</div>
+        <div className='text-xl'>Jan 2019 - Sep 2023</div>
+        <div className='text-xl'>Naver Design Camp 2018, Paris, France</div>
+        <div className='text-xl'>Full time</div>
 
       </header>
     </div>
