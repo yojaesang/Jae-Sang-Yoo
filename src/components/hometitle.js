@@ -6,7 +6,7 @@ export class HomeTitle extends Component {
   render() {
     return (
       <>
-        <h1 className='text-6xl font-grotesk m-10'>Jae Sang Yoo</h1>
+        <h1 className='text-3xl font-grotesk ml-10 mt-10'>Jae Sang Yoo</h1>
 
       </>
     )
