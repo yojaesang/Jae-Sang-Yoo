@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "./texteng.css";
 
 export class IntroEng extends Component {
   render() {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "./textkor.css";
 
 export class IntroKor extends Component {
   render() {

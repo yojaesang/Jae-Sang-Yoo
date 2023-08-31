@@ -21,41 +21,50 @@ export class MainTab extends Component {
           </li>
 
           <li className='hover:text-white py-2'>
-            <Link className='no-underline' activeClass="active" to="work23" spy={true} smooth={true} offset={-20} duration={500}>Work</Link>
+            <Link className='no-underline' activeClass="active" to="work1" spy={true} smooth={true} offset={100} duration={500}>Work</Link>
           </li>
 
           <ul>
-            <li className='hover:text-white p-2'>
-              <Link className='no-underline' activeClass="active" to="work23" spy={true} smooth={true} offset={-20} duration={500}>2023</Link>
+            <li className='hover:text-white p-2 pl-3'>
+              <Link className='no-underline' activeClass="active" to="work1" spy={true} smooth={true} offset={100} duration={500}>Alterengo</Link>
             </li>
-            <li className='hover:text-white p-2'>
-                <Link className='no-underline' activeClass="active" to="work22" spy={true} smooth={true} offset={-20} duration={500}>2022</Link>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work2" spy={true} smooth={true} offset={100} duration={500}>B tv for Apple tv</Link>
             </li>
-            <li className='hover:text-white p-2'>
-                <Link className='no-underline' activeClass="active" to="work21" spy={true} smooth={true} offset={-20} duration={500}>2021</Link>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work3" spy={true} smooth={true} offset={100} duration={500}>PlayZ</Link>
             </li>
-            <li className='hover:text-white p-2'>
-                <Link className='no-underline' activeClass="active" to="work20" spy={true} smooth={true} offset={-20} duration={500}>2020</Link>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work4" spy={true} smooth={true} offset={100} duration={500}>B tv air</Link>
             </li>
-            <li className='hover:text-white p-2'>
-                <Link className='no-underline' activeClass="active" to="work19" spy={true} smooth={true} offset={-20} duration={500}>2019</Link>
+            <li className='hover:text-white p- pl-3'>
+                <Link className='no-underline' activeClass="active" to="work5" spy={true} smooth={true} offset={100} duration={500}>Smart 3 mini</Link>
             </li>
-            <li className='hover:text-white p-2'>
-                <Link className='no-underline' activeClass="active" to="work18" spy={true} smooth={true} offset={-20} duration={500}>2018</Link>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work6" spy={true} smooth={true} offset={100} duration={500}>Kids Remote</Link>
             </li>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work7" spy={true} smooth={true} offset={100} duration={500}>Accessories</Link>
+            </li>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work8" spy={true} smooth={true} offset={100} duration={500}>Production Guide</Link>
+            </li>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work9" spy={true} smooth={true} offset={100} duration={500}>Concept design</Link>
+            </li>
+            <li className='hover:text-white p-2 pl-3'>
+                <Link className='no-underline' activeClass="active" to="work10" spy={true} smooth={true} offset={100} duration={500}>Naver Design Camp</Link>
+            </li>
+
           </ul>
 
           <li className='hover:text-white py-2'>
-            <Link className='no-underline' activeClass="active" to="experience" spy={true} smooth={true} offset={-20} duration={500}>Exprience</Link>
-          </li>
-
-          <li className='hover:text-white py-2'>
-            <Link className='no-underline' activeClass="active" to="awards" spy={true} smooth={true} offset={-20} duration={500}>Awards & Patents</Link>
+            <Link className='no-underline' activeClass="active" to="experience" spy={true} smooth={true} offset={-60} duration={500}>Exprience</Link>
           </li>
 
           {/* <div className='h-1 border-b'></div> */}
-          <li className='hover:text-white py-2'>Linkedin
-          
+          <li className='hover:text-white py-2'>
+              <a href="www.linkedin.com/in/jae-sang-yoo">Linkedin</a>
           </li>
         </ul>
       </div>
