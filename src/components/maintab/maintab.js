@@ -63,9 +63,9 @@ export class MainTab extends Component {
           </li>
 
           {/* <div className='h-1 border-b'></div> */}
-          <li className='hover:text-white py-2'>
-              <a href="www.linkedin.com/in/jae-sang-yoo">Linkedin</a>
-          </li>
+          <div className='hover:text-white py-2'>
+              <a href="https://www.linkedin.com/in/jae-sang-yoo/">Linkedin</a>
+          </div>
         </ul>
       </div>
     )

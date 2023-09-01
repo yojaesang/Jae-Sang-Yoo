@@ -12,7 +12,7 @@ export class Work1 extends Component {
         <div className='flex flex-row ml-10'>
           <Iconsvg className='w-6 h-7 mr-1 fill-black'/>
           <div className='text-lg font-medium'>
-          <a href="altengo.com">Alterengo</a>
+          <a href="https://alterengo.com/">Alterengo</a>
           </div>
         </div>
         <div className='text-lg ml-10'>Web UI Design, Front-end Dev. / 2020.08 - Now</div>
