@@ -13,10 +13,10 @@ export class TextEng2 extends Component {
             <div className='text-sm'>Feb 2012 - Feb 2019</div>
             <div className='text-base font-bold'>Yonsei Univ.</div>
 
-            <div className='m-1 pl-6'>
+            <div className=''>
               <ul className='text-sm'>
-                <li className='list-disc'>Bachelor of Science - BS, Information & Interaction Design</li>
-                <li className='list-disc'>Bachelor of Arts - BA, Media and Communication</li>
+                <li className=''>Bachelor of Science - BS, Information & Interaction Design</li>
+                <li className=''>Bachelor of Arts - BA, Media and Communication</li>
               </ul>
             </div>
 

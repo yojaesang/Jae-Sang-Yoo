@@ -13,10 +13,10 @@ export class TextKor2 extends Component {
             <div className='text-sm'>2012년 2월 - 2019년 2월</div>
             <div className='text-base font-bold'>연세대학교</div>
 
-            <div className='m-1 pl-6'>
+            <div className=' '>
               <ul className='text-sm'>
-                <li className='list-disc'>이학사, 정보인터랙션디자인학과</li>
-                <li className='list-disc'>문학사, 언론홍보영상학과</li>
+                <li className=''>이학사, 정보인터랙션디자인학과</li>
+                <li className=''>문학사, 언론홍보영상학과</li>
               </ul>
             </div>
 
